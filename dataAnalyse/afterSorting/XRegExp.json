@@ -1,0 +1,352 @@
+[
+	{
+		"name": "Anne de Bretagne",
+		"rating": "4.4",
+		"price": "Prix - De 39 € à 77 €",
+		"minPrice": "39",
+		"maxPrice": "77"
+	},
+	{
+		"name": "Au Crocodile",
+		"rating": "4.7",
+		"price": "Prix - De 48 € à 148 €",
+		"minPrice": "48",
+		"maxPrice": "148"
+	},
+	{
+		"name": "L'Auberge des Glazicks",
+		"rating": "4.8",
+		"price": "Prix - De 60 € à 225 €",
+		"minPrice": "60",
+		"maxPrice": "225"
+	},
+	{
+		"name": "Auberge des Templiers",
+		"rating": "4.3",
+		"price": "Prix - De 70 € à 160 €",
+		"minPrice": "70",
+		"maxPrice": "160"
+	},
+	{
+		"name": "La Table du Connétable",
+		"rating": "4.5",
+		"price": "Prix - De 67 € à 161 €",
+		"minPrice": "67",
+		"maxPrice": "161"
+	},
+	{
+		"name": "L'Oustau de Baumanière",
+		"rating": "4.3",
+		"price": "Prix - De 100 € à 220 €",
+		"minPrice": "100",
+		"maxPrice": "220"
+	},
+	{
+		"name": "Le Brittany",
+		"rating": "4.8",
+		"price": "Prix - De 58 € à 68 €",
+		"minPrice": "58",
+		"maxPrice": "68"
+	},
+	{
+		"name": "Les Pêcheurs",
+		"rating": "4",
+		"price": "Prix moyen - 85 €",
+		"minPrice": false,
+		"maxPrice": false
+	},
+	{
+		"name": "Le Cap",
+		"rating": "4.7",
+		"price": "Prix - De 154 € à 242 €",
+		"minPrice": "154",
+		"maxPrice": "242"
+	},
+	{
+		"name": "1217",
+		"rating": "4.7",
+		"price": "Prix - De 65 € à 140 €",
+		"minPrice": "65",
+		"maxPrice": "140"
+	},
+	{
+		"name": "Le Jardin de Benjamin",
+		"rating": "4.9",
+		"price": "Prix - De 55 € à 125 €",
+		"minPrice": "55",
+		"maxPrice": "125"
+	},
+	{
+		"name": "L'Orangerie",
+		"rating": "4.8",
+		"price": "Prix - De 75 € à 125 €",
+		"minPrice": "75",
+		"maxPrice": "125"
+	},
+	{
+		"name": "La Chèvre d'Or",
+		"rating": "4.8",
+		"price": "Prix - De 85 € à 300 €",
+		"minPrice": "85",
+		"maxPrice": "300"
+	},
+	{
+		"name": "Le Duèze",
+		"rating": "3.8",
+		"price": "Prix - De 39 € à 155 €",
+		"minPrice": "39",
+		"maxPrice": "155"
+	},
+	{
+		"name": "La Palmeraie",
+		"rating": "4.5",
+		"price": "Prix - De 28 € à 65 €",
+		"minPrice": "28",
+		"maxPrice": "65"
+	},
+	{
+		"name": "Château de la Treyne",
+		"rating": "4.8",
+		"price": "Prix - De 50 € à 146 €",
+		"minPrice": "50",
+		"maxPrice": "146"
+	},
+	{
+		"name": "La Table",
+		"rating": "-",
+		"price": "Prix - De 49 € à 95 €",
+		"minPrice": "49",
+		"maxPrice": "95"
+	},
+	{
+		"name": "Domaine de Rochevilaine",
+		"rating": "4.7",
+		"price": "Prix - De 44 € à 110 €",
+		"minPrice": "44",
+		"maxPrice": "110"
+	},
+	{
+		"name": "Flocons de Sel",
+		"rating": "4.7",
+		"price": "Prix - De 90 € à 168 €",
+		"minPrice": "90",
+		"maxPrice": "168"
+	},
+	{
+		"name": "Albert 1er",
+		"rating": "4.6",
+		"price": "Prix - De 49 € à 156 €",
+		"minPrice": "49",
+		"maxPrice": "156"
+	},
+	{
+		"name": "Le Pavillon",
+		"rating": "3.2",
+		"price": "Prix - De 65 € à 155 €",
+		"minPrice": "65",
+		"maxPrice": "155"
+	},
+	{
+		"name": "Le Chabichou",
+		"rating": "4.2",
+		"price": "Prix - De 75 € à 275 €",
+		"minPrice": "75",
+		"maxPrice": "275"
+	},
+	{
+		"name": "La Table de l'Ours",
+		"rating": "5",
+		"price": "Prix - De 95 € à 160 €",
+		"minPrice": "95",
+		"maxPrice": "160"
+	},
+	{
+		"name": "En Marge",
+		"rating": "4.5",
+		"price": "Prix - De 34 € à 145 €",
+		"minPrice": "34",
+		"maxPrice": "145"
+	},
+	{
+		"name": "La Bonne Étape",
+		"rating": "4.4",
+		"price": "Prix - De 35 € à 75 €",
+		"minPrice": "35",
+		"maxPrice": "75"
+	},
+	{
+		"name": "La Grenouillère",
+		"rating": "4.1",
+		"price": "Prix - De 80 € à 160 €",
+		"minPrice": "80",
+		"maxPrice": "160"
+	},
+	{
+		"name": "La Table d'Uzès",
+		"rating": "4.9",
+		"price": "Prix - De 34 € à 86 €",
+		"minPrice": "34",
+		"maxPrice": "86"
+	},
+	{
+		"name": "La Signoria",
+		"rating": "4.7",
+		"price": "Prix - De 50 € à 95 €",
+		"minPrice": "50",
+		"maxPrice": "95"
+	},
+	{
+		"name": "La Table d'Olivier Nasti",
+		"rating": "4.6",
+		"price": "Prix - De 85 € à 205 €",
+		"minPrice": "85",
+		"maxPrice": "205"
+	},
+	{
+		"name": "Le Cloître",
+		"rating": "4.7",
+		"price": "Prix - De 85 € à 155 €",
+		"minPrice": "85",
+		"maxPrice": "155"
+	},
+	{
+		"name": "Le Grand Véfour",
+		"rating": "4.6",
+		"price": "Prix - De 115 € à 315 €",
+		"minPrice": "115",
+		"maxPrice": "315"
+	},
+	{
+		"name": "Le Petit Nice",
+		"rating": "4.2",
+		"price": "Prix - De 110 € à 380 €",
+		"minPrice": "110",
+		"maxPrice": "380"
+	},
+	{
+		"name": "Le Prieuré",
+		"rating": "4.6",
+		"price": "Prix - De 36 € à 120 €",
+		"minPrice": "36",
+		"maxPrice": "120"
+	},
+	{
+		"name": "Le Pré Catelan",
+		"rating": "4.6",
+		"price": "Prix - De 140 € à 310 €",
+		"minPrice": "140",
+		"maxPrice": "310"
+	},
+	{
+		"name": "Le Taillevent",
+		"rating": "4.7",
+		"price": "Prix - De 90 € à 198 €",
+		"minPrice": "90",
+		"maxPrice": "198"
+	},
+	{
+		"name": "Le Vieux Logis",
+		"rating": "4.5",
+		"price": "Prix - De 50 € à 120 €",
+		"minPrice": "50",
+		"maxPrice": "120"
+	},
+	{
+		"name": "Les Hautes Roches",
+		"rating": "4",
+		"price": "Prix - De 60 € à 80 €",
+		"minPrice": "60",
+		"maxPrice": "80"
+	},
+	{
+		"name": "Le Coquillage",
+		"rating": "4.7",
+		"price": "Prix - De 72 € à 139 €",
+		"minPrice": "72",
+		"maxPrice": "139"
+	},
+	{
+		"name": "Lucas Carton",
+		"rating": "4.2",
+		"price": "Prix - De 89 € à 151 €",
+		"minPrice": "89",
+		"maxPrice": "151"
+	},
+	{
+		"name": "L'Arnsbourg",
+		"rating": "4.7",
+		"price": "Prix - De 55 € à 133 €",
+		"minPrice": "55",
+		"maxPrice": "133"
+	},
+	{
+		"name": "Maison Lameloise",
+		"rating": "4.5",
+		"price": "Prix - De 82 € à 215 €",
+		"minPrice": "82",
+		"maxPrice": "215"
+	},
+	{
+		"name": "Maison Rostang",
+		"rating": "4.5",
+		"price": "Prix - De 90 € à 235 €",
+		"minPrice": "90",
+		"maxPrice": "235"
+	},
+	{
+		"name": "Passage 53",
+		"rating": "4.1",
+		"price": "Prix - De 120 € à 240 €",
+		"minPrice": "120",
+		"maxPrice": "240"
+	},
+	{
+		"name": "Pierre Gagnaire",
+		"rating": "4.7",
+		"price": "Prix - De 155 € à 350 €",
+		"minPrice": "155",
+		"maxPrice": "350"
+	},
+	{
+		"name": "Relais de la Poste",
+		"rating": "4.5",
+		"price": "Prix - De 59 € à 127 €",
+		"minPrice": "59",
+		"maxPrice": "127"
+	},
+	{
+		"name": "Christopher Coutanceau",
+		"rating": "4.5",
+		"price": "Prix - De 68 € à 165 €",
+		"minPrice": "68",
+		"maxPrice": "165"
+	},
+	{
+		"name": "Greuze",
+		"rating": "4.4",
+		"price": "Prix - De 42 € à 135 €",
+		"minPrice": "42",
+		"maxPrice": "135"
+	},
+	{
+		"name": "Le Royal",
+		"rating": false,
+		"price": "Prix - De 62 € à 180 €",
+		"minPrice": "62",
+		"maxPrice": "180"
+	},
+	{
+		"name": "Les Terrasses de Lyon",
+		"rating": "4.8",
+		"price": "Prix - De 76 € à 120 €",
+		"minPrice": "76",
+		"maxPrice": "120"
+	},
+	{
+		"name": "Villa René Lalique",
+		"rating": "4.7",
+		"price": "Prix - De 78 € à 240 €",
+		"minPrice": "78",
+		"maxPrice": "240"
+	}
+]
