@@ -1,8 +1,10 @@
 # Scraping and analysing
-> Scraping
+**Scraping**
+
 In the Scraping folder I scrapy the data of the relaischateaux website.
 And in the michelinScraping folder I scrapy the data of the starred restaurant of michelin.
-> Analysing
+
+**Analysing**
 I store those data as json file, rebuild it to the dataAnalyse file.
 In the dataAnalyse.js, I match all the restaurant with the starred michelin and store it as afterSort.json
 Also designed a script to express the Price range, store it as XRegExp.
