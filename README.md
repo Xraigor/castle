@@ -13,6 +13,13 @@ In the dataAnalyse.js, I match all the restaurant with the starred michelin and 
 
 Also designed a script to express the Price range, store it as XRegExp.
 
+# Html for searching restaurant
+>Searching
+
+In the front-end folder I design a website for searching the michelin starred restaurant.
+
+One button for name searching(Using reguler expression), one button for details searching( price and rating ).
+
 # Castle
 
 > Sleep well with Relais & Châteaux
