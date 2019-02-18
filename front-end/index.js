@@ -6,7 +6,7 @@
     const template = actors.map(actor => {
       return `
       <h1>
-        <div class="actor">
+        <div class="row">
           <span>Restaurant is ${actor.name}.</span></br>
           <span>Price is from ${actor.minPrice}&#8364 to ${actor.maxPrice}&#8364.</span></br>
           <span>Rating  ${actor.rating}.</span>
