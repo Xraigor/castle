@@ -3757,7 +3757,7 @@ const michelin = [
     }
 ];
 
-const castle = [ 
+const castle = [
     {"hotel":"Abbaye de la Bussière","href":"https://www.relaischateaux.com/us/france/bussiere-cote-d-or-la-bussiere-sur-ouche","resto":["Gastronomique","Bistrot des Moines"]},
     {"hotel":"Anne de Bretagne","href":"https://www.relaischateaux.com/us/france/annedebretagne-loire-atlantique-la-plaine-sur-mer","resto":["Anne de Bretagne"]},
     {"hotel":"Assiette Champenoise","href":"https://www.relaischateaux.com/us/france/assiette-champenoise-champagne-ardenne-tinqueux","resto":["L'Assiette Champenoise"]},
@@ -3939,7 +3939,8 @@ restos.forEach(resto => {
         afterSearch.push({
             name: element.name,
             rating: element.rating,
-            price: element.price
+            price: element.price,
+            href: element.href,
         });
     }
 })
@@ -3959,14 +3960,14 @@ const patterns = [{
 },
 ];
 console.log(afterSearch[0].price);
-console.log( 
+console.log(
 		XRegExp.exec(afterSearch[0].price, XRegExp(patterns[0].pattern, "i")).lowprice
 );
 
 
 let matchPattern = (str) => {
     let getResult = XRegExp.test(str, XRegExp(patterns[0].pattern, "i"));
-	
+
 	if(getResult){
         let high= XRegExp.exec(str, XRegExp(patterns[1].pattern, "i")).highprice;
         let low = XRegExp.exec(str, XRegExp(patterns[0].pattern, "i")).lowprice;

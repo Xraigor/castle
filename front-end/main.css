@@ -1,0 +1,72 @@
+
+body {
+  color: red;              /* Dark gray */
+  background-color: #FF69B4;;    /* Light gray */;
+  background-size = cover;
+}
+
+p{
+text-align:center;
+}
+h1,h2,h3{
+              color: #FFF;
+              background-color: #5995DA;    /* Blue */
+              font-weight: bold;
+              padding: 20px;
+              text-align: center;
+              border: 2px solid #5D6063;    /* Dark gray */
+              border-radius: 5px;
+              font-size:12px;
+              width: 200px;
+              margin: 20px auto;
+
+  text-align: left;
+}
+h4{
+              color: #FFF;
+              background-color: #5995DA;    /* Blue */
+              font-weight: bold;
+              padding: 20px;
+              text-align: center;
+              border: 2px solid #5D6063;    /* Dark gray */
+              border-radius: 5px;
+              font-size:12px;
+              width: 300px;
+              margin: 20px auto;
+
+  text-align: left;
+}
+
+
+.button {
+  color: #FFF;
+  background-color: #5995DA;    /* Blue */
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+
+  text-align: left;
+}
+.output {
+  color: #FFF;
+  background-color: #5995DA;    /* Blue */
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+
+  text-align: left;
+}
+
+.images{
+background-size = cover;
+}
