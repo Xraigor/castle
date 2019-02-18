@@ -20,6 +20,8 @@ In the front-end folder I design a website for searching the michelin starred re
 
 One button for name searching(Using reguler expression), one button for details searching( price and rating ).
 
+Also we can click on the searching result to go to the website of the selected restaurant to get more details.
+
 # Castle
 
 > Sleep well with Relais & Châteaux
