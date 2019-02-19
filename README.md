@@ -1,24 +1,26 @@
 # Scraping and analysing
 >Scraping
 
-In the Scraping folder I scrapy the data of the relaischateaux website.
+In the `Scraping` folder I scrapy the data of the relaischateaux website.
 
-And in the michelinScraping folder I scrapy the data of the starred restaurant of michelin.
+And in the `michelinScraping` folder I scrapy the data of the starred restaurant of michelin.
 
 >Analysing
 
-I store those data as json file, rebuild it to the dataAnalyse file.
+I store those data as json file, rebuild it to the `dataAnalyse` file.
 
-In the dataAnalyse.js, I match all the restaurant with the starred michelin and store it as afterSort.json
+In the `dataAnalyse.js`, I match all the restaurant with the starred michelin and store it as `afterSort.json`
 
-Also designed a script to express the Price range, store it as XRegExp.
+Also designed a script to express the Price range, store it as `XRegExp`.
 
 # Html for searching restaurant
 >Searching
 
-In the front-end folder I design a website for searching the michelin starred restaurant.
+In the front-end folder I design a website for searching the michelin starred restaurant in `castle.html`.
 
 One button for name searching(Using reguler expression), one button for details searching( price and rating ).
+
+Also we can click on the searching result to go to the website of the selected restaurant to get more details.
 
 # Castle
 
