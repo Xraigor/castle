@@ -1,0 +1,59 @@
+var fs = require('fs');
+var MongoClient = require('mongodb').MongoClient;
+var dbName="tbobjects";
+var url = "mongodb://localhost:27017/"+dbName;
+
+MongoClient.connect(url, function(err, db) {
+  if (err) throw err;
+  console.log("数据库"+dbName+"已创建!");
+  var dbase=db.db(dbName);
+  //判断集合是否存在
+
+  //*
+  var colName="models";
+  dbase.listCollections({name: colName})
+  .next(function(err, collinfo) {
+      if (collinfo) {
+          // The collection exists
+          console.log("集合"+colName+"已经存在");
+      }
+      else
+      {
+          console.log("集合"+colName+"不存在");
+      }
+  });
+  //*/
+
+  //*
+  //创建集合，即使集合已经存在，也不会产生异常
+  dbase.createCollection(colName,function(err,res){
+      if(err)      throw err;
+      console.log("创建集合"+colName+"成功");
+      //插入tbobjects文件
+      var fileName="XRegExp.json";
+      console.log("读取json文件："+fileName);
+        var fileContent=fs.readFileSync(fileName);
+        debugger;
+        if(fileContent)
+        {
+            console.log("fileContent .len="+fileContent.length);
+            //写入数据库
+            var tbfile=JSON.parse(fileContent);
+            debugger;
+            dbase.collection(colName).insert(tbfile,function(err,res){
+                if(err)throw err;
+                console.log("tbfile文件写入数据库成功");
+                let ratingAsk = [];
+            dbase.collection(colName).find({}).sort({"rating": -1}).toArray(function(err, result) { // 返回集合中所有数据
+            if (err) throw err;
+            ratingAsk = result;
+            console.log(result);
+            fs.writeFileSync(`afterSort.json`,JSON.stringify(ratingAsk,null, '\t'), encodeURI = 'utf-8', flag = 'a');
+            })
+            db.close();
+        });
+
+        }
+  })
+
+});
